@@ -1,76 +1,31 @@
-# Nuxt 3 Minimal Starter
+# Gallery Frontend
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Overview
 
-## Setup
+**Gallery Frontend** is a responsive web application that enables users to upload, view, and manage images seamlessly. Built with modern web technologies, it offers an intuitive interface and efficient performance.
 
-Make sure to install the dependencies:
+## Features
 
-```bash
-# npm
-npm install
+- **Image Upload & Preview**: Users can select images from their devices, preview them before uploading, and submit them to the gallery.
+- **Responsive Design**: The application is optimized for various screen sizes, ensuring a consistent experience across desktops, tablets, and mobile devices.
+- **Image Gallery**: Displays uploaded images in a grid layout, allowing users to browse through their collection effortlessly.
+- **Lazy Loading**: Implements lazy loading for images to enhance performance, especially when dealing with large datasets.
+- **Error Handling**: Provides user-friendly error messages and validations during the image upload process.
 
-# pnpm
-pnpm install
+## Tech Stack
 
-# yarn
-yarn install
+- **Nuxt 3**: Utilized for its powerful features in building modern web applications.
+- **Vue 3**: Employed for building interactive user interfaces.
+- **Tailwind CSS**: Applied for styling, offering a utility-first approach to design.
+- **Pinia**: Used for state management, ensuring a predictable state container for the application.
+- **TypeScript**: Implemented to add static typing, enhancing code quality and maintainability.
 
-# bun
-bun install
-```
+## Installation & Setup
 
-## Development Server
+To run this project locally, follow these steps:
 
-Start the development server on `http://localhost:3000`:
+1. **Clone the Repository**:
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# gallery-frontend
+   ```bash
+   git clone https://github.com/Shubhankar-12/gallery-frontend.git
+   cd gallery-frontend
